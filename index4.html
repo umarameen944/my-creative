@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <nav class="nav">
+    <div class="navbar">
+        <div class="logo">NAVBAR</div>
+        <div class="togglebutton" id="toggleButton">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="navlinks" id="navLinks">
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">reviews</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="index5.html">our products</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h1 style="color: orangered;">welcome to our website</h1><br><br><br>
+<h2>OUR PRODUCTS</h2>
+<div class="container">
+    <div class="contentsection">
+        <div class="card">
+            <img src="1.jpg" alt="" >
+            <h2>card1</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="card">
+            <img src="2.jpg" alt="">
+            <h2>card2</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="card">
+            <img src="3.jpg" alt="" >
+            <h2>card3</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+</div>
+<div class="container1">
+    <div class="contentsection1">
+        <div class="card">
+            <img src="4.jpg" alt="" >
+            <h2>card4</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="card">
+            <img src="5.jpg" alt="" >
+            <h2>card5</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="card">
+            <img src="1.jpg" alt="" width="350px" height="200px">
+            <h2>card6</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+    var toggleButton=document.getElementById('toggleButton');
+    var navLinks=document.getElementById('navLinks');
+
+    toggleButton.addEventListener('click',()=>{
+        navLinks.classList.toggle('active');
+
+    });
+</script>
+</body>
+</html>
